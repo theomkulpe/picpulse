@@ -9,7 +9,7 @@ const UploadScreen = () => {
   // Function to handle the image upload
   const handleUpload = async () => {
     try {
-      const response = await fetch("http://192.168.115.129:3000/images", {
+      const response = await fetch("http://localhost:3000/images", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
