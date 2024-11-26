@@ -10,11 +10,11 @@ Cross-Platform Support: Built with React Native to support both iOS and Android.
 
 ## Technologies Used
 ### Frontend:
-React Native
-Axios for HTTP requests
+React Native  
+Axios for HTTP requests  
 
 ### Backend:
-Express
-Node.js
-MongoDB for image data storage
+Express  
+Node.js  
+MongoDB for image data storage  
 MongoDB Atlas for cloud-based database
