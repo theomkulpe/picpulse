@@ -15,7 +15,7 @@ const App = () => {
     // Fetch data from the server when the component mounts
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://192.168.115.129:3000/images");
+        const response = await axios.get("http://localhost:3000/images");
         setData(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
